@@ -3,7 +3,7 @@ import Carousel from "./Carousel";
 
 const About = () => {
     return <div>
-        <div className="flex flex-col lg:flex-row text-white justify-between xl:p-8 2xl:w-[79%] mt-4">
+        <div className="flex flex-col lg:flex-row text-white justify-between xl:p-8 2xl:w-[79%] mt-4 mx-auto">
             <div className="lg:w-2/5 p-6 lg:px-8 md:px-10 pb-6">
                 <h1 className="mt-4 mb-1 text-6xl font-bold text-[#d4af37]">
                     ENVA
