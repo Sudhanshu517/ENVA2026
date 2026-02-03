@@ -136,7 +136,7 @@ const Carousel = () => {
         return <div className="relative w-full">
             <div
             ref={scrollRef}
-            className="h-80 md:h-96  flex overflow-x-auto scroll-smooth snap-x snap-mandatory hide-scroll mask-x-from-85% mask-x-to-95%"
+            className="h-64 sm:h-80 md:h-96  flex overflow-x-auto scroll-smooth snap-x snap-mandatory hide-scroll mask-x-from-85% mask-x-to-95%"
             style={{scrollbarWidth: "none"}}
             onScroll={handleScroll}
             onMouseEnter={stopAutoScroll}
