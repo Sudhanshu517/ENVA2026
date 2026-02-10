@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Montserrat:wght@400;600;800&display=swap');
+@import "tailwindcss";
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 84px;
+    }
+
+    body {
+        @apply bg-[#080808] text-[#f0f0f0] font-sans overflow-x-hidden;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    #root {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+}
+
+@keyframes sweep {
+    0% {
+        transform: rotate(-25deg);
+        opacity: 0.1;
+    }
+
+    100% {
+        transform: rotate(25deg);
+        opacity: 0.3;
+    }
+}
+
+.animate-sweep {
+    animation: sweep 8s infinite alternate ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fadeIn {
+    animation: fadeIn 1.5s ease-out forwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.animate-fade {
+    animation: fade 1.5s;
+}
+
+@utility font-limelight {
+    font-family: 'Limelight', cursive;
+}
