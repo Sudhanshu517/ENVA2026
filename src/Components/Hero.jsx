@@ -30,7 +30,7 @@ const Hero = () => {
         </h1>
         
         <p className="text-[0.9rem] md:text-[1rem] tracking-[5px] uppercase text-[#c5a000] mb-10">
-          29th - 30th January
+          12th - 13th February
         </p>
         
         <button 

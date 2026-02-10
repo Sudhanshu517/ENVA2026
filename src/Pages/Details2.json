@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "eventName": "Bollywood Day",
+    "location": "Auditorium",
+    "shortdescription": "Experience the drama and glitz of cinema.",
+    "description": "Bollywood Day is your ultimate chance to dive into the drama, glitz, and glamour of Indian cinema! Bring out the actor, singer, or dancer within you as you step into the world of Bollywood with larger-than-life performances. Whether it's nailing iconic movie dialogues or grooving to classic hits, this event promises a filmy extravaganza like no other!",
+    "image_url": "/Events/1.png",
+    "details": "Participants can bring their costumes, props, or anything else to spice up their act. A theme or scenario will be provided ahead of time, so you can channel your inner superstar and bring the magic to life on stage. Creativity and enthusiasm will steal the show!",
+    "min": 1,
+    "registrationLink": "",
+    "max": 5
+  },
+  {
+    "id": 2,
+    "eventName": "Treasure Hunt",
+    "location": "Auditorium",
+    "shortdescription": "Solve riddles and race to find treasure.",
+    "description": "Gear up for a heart-pounding adventure in this ultimate treasure hunt! Follow cryptic clues, unravel riddles, and race against the clock to discover hidden locations. It’s all about wit, speed, and strategy as you and your team embark on a quest full of twists, turns, and surprises. Will you be the one to uncover the treasure?",
+    "image_url": "/Events/2.png",
+    "details": "The hunt takes place over two thrilling days, with each clue leading to the next destination. Teams should have a device for navigation and a sharp mind to tackle physical and mental challenges. Get ready to experience the thrill of solving puzzles and outsmarting your competition!",
+    "min": 2,
+    "registrationLink": "https://forms.gle/tC8nCvJTf7xhsbYy5",
+    "max": 4
+  },
+  {
+    "id": 3,
+    "eventName": "Mystery Rooms",
+    "location": "Auditorium",
+    "shortdescription": "Solve puzzles and escape before time expires.",
+    "description": "It is a game in which a team of players cooperatively discover clues, solve puzzles, and accomplish tasks in order to progress and accomplish a specific goal in a limited amount of time.",
+    "image_url": "/Events/3.png",
+    "details": "Each room is packed with clues, locks, and riddles waiting to be solved. Communication and quick thinking are key to making it out before time runs out. A nail-biting experience that will test your logic and creativity to the fullest!",
+    "min": 3,
+    "registrationLink": "https://bit.ly/MYSTERYROOMS2025",
+    "max": 6
+  },
+  {
+    "id": 4,
+    "eventName": "Guns n Roses",
+    "location": "Auditorium",
+    "shortdescription": "Test partner compatibility through fun strategic challenges.",
+    "description": "GUNS N ROSES is an event based on strategy and compatibility between the partners. It is a fun filled event where the couple who wins the first round will be promoted to the subsequent rounds.",
+    "image_url": "/Events/4.png",
+    "details": "Each round will bring unexpected twists, from quirky compatibility quizzes to thrilling challenges that test your coordination and problem-solving. Make it through each stage, and you’ll face the ultimate showdown in the grand finale. Laughter, surprises, and memories are guaranteed!",
+    "min": 2,
+    "registrationLink": "https://forms.gle/2uLAnneEftYiy4TB9",
+    "max": 2
+  },
+  {
+    "id": 5,
+    "eventName": "Minute To Win It",
+    "location": "Auditorium",
+    "shortdescription": "Complete quirky tasks in sixty seconds flat.",
+    "description": "Test your speed and coordination skills with Minute To Win It, where you race against the clock to complete the given task within a minute.Play exciting games with your friends, and stand a chance to win the prize!",
+    "image_url": "/Events/5.png",
+    "details": "Get ready for the most action-packed 60 seconds of your life! Minute to Win It is a fast-paced event where participants must complete quirky and challenging tasks under the pressure of the ticking clock. It’s all about speed, precision, and having a blast as you race against time to ace the challenges.",
+    "min": 2,
+    "registrationLink": "https://docs.google.com/forms/d/e/1FAIpQLSdLO1-RM2_Sr8iUCXni2DavD7M5mf_maLj9-qFtO5SS0FSxRQ/viewform?usp=sharing",
+    "max": 5
+  },
+  {
+    "id": 6,
+    "eventName": "Shutter Fiesta",
+    "location": "Auditorium",
+    "shortdescription": "Showcase your perspective through creative photography skills.",
+    "description": "Capture the world through your lens at Shutter Fiesta! This photography competition invites enthusiasts to explore their creative potential and tell compelling stories through breathtaking visuals. Whether you’re a seasoned photographer or a budding talent, this event offers you the perfect platform to showcase your perspective.",
+    "image_url": "/Events/6.png",
+    "details": "Participants will face dynamic challenges, from capturing candid moments to mastering thematic shots. Each round tests your creativity, composition, and storytelling skills. Gear up with your cameras and a keen eye for detail, and let your photographs do the talking.",
+    "min": 1,
+    "registrationLink": "",
+    "max": 2
+  },
+  {
+    "id": 7,
+    "eventName": "Cup Game",
+    "location": "Auditorium",
+    "shortdescription": "Stack, flip, and balance in energetic challenges.",
+    "description": "Unleash your competitive spirit with an exciting lineup of classic and creative cup games! Whether it’s stacking, flipping, or balancing, Cup Games bring laughter, strategy, and energy into a fun-filled event for everyone. Perfect for team bonding or friendly rivalry, this event guarantees non-stop entertainment.",
+    "image_url": "/Events/7.png",
+    "details": "From iconic challenges like speed stacking to innovative cup-flipping games, there’s something for everyone. These games test your coordination, quick reflexes, and strategy in a series of fast and fun rounds. Grab your teammates, bring your A-game, and let the cups do the magic!",
+    "min": 3,
+    "registrationLink": "https://docs.google.com/forms/d/1-jp2xyoMNw9uhdf1j4cZOl0tayuoo5WuzsgrXAtxHQk/edit",
+    "max": 5
+  },
+  {
+    "id": 8,
+    "eventName": "Squid Game",
+    "location": "Auditorium",
+    "shortdescription": "Outwit competition in high-stakes team strategy games.",
+    "description": "Step into the ultimate showdown of wits, teamwork, and thrill in Squid Games! This adrenaline- fueled event is packed with intriguing tasks and clever challenges that will keep you on the edge of your seat. From strategy-based activities to fun team-oriented games, every round brings new surprises as teams compete for the top spot. Will you survive the games and emerge victorious?",
+    "image_url": "/Events/8.png",
+    "details": "Squid Games is all about thinking on your feet and navigating through unexpected twists. With each round, your team will need to stay sharp and work together to outwit the competition. Come prepared for intense fun, clever gameplay, and the experience of a lifetime!",
+    "min": 3,
+    "registrationLink": "https://forms.gle/mqx5WMQqZMZb4HsM9",
+    "max": 6
+  }
+]

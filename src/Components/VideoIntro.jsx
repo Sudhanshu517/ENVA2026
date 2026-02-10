@@ -6,7 +6,7 @@ const VideoIntro = ({ onComplete }) => {
 
   useEffect(() => {
     if (videoRef.current) {
-      videoRef.current.playbackRate = 2.0;
+      videoRef.current.playbackRate = 4.0;
     }
   }, []);
 

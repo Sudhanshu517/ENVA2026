@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 w-full px-6 md:px-10 py-5 flex justify-between items-center bg-black/90 backdrop-blur-md z-100 border-b border-[#333]">
       <div className="font-limelight text-[1.5rem] md:text-[1.8rem] text-[#c5a000] tracking-[2px]">
-        ENVA '26
+        <a href="/">ENVA '26</a>
       </div>
       <div className="hidden md:flex gap-8">
         {navLinks.map((item) => (
