@@ -10,9 +10,7 @@ const Events = () => {
           Featured Events
         </h1>
         <div className="bg-[#d4af37] h-1 w-16 m-2"></div>
-        <p className="text-lg m-2 mb-6 lg:mb-14 text-slate-400">
-          Stay tuned. The premiere is coming soon.
-        </p>
+        
       </div>
       {/* <div className="text-white gap-6 xl:gap-0 grid
                         grid-cols-1 grid-rows-6
