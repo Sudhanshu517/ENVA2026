@@ -12,7 +12,7 @@ const About = () => {
                     The Annual College Fest
                 </h2>
                 <p className="my-3 text-lg lg:text-xl font-[300]">
-                    ENVA, organised by Prakriti MSIT, is a fun-packed, frolicsome event which is a 2-day-long spectacle held in January. The fest not only sees involvement of students, but also teachers, showcasing wholesome senior-junior interaction.
+                    ENVA, organised by Prakriti MSIT, is a fun-packed, frolicsome event which is a 2-day-long spectacle held in February. The fest not only sees involvement of students, but also teachers, showcasing wholesome senior-junior interaction.
                 </p>
 
             </div>
