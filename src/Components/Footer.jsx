@@ -1,5 +1,13 @@
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
+
+const socials = [
+  {icon: FaFacebookF, url: "https://facebook.com/msitprakriti"},
+  {icon: FaInstagram, url: "https://instagram.com/prakriti_msit"},
+  {icon: FaLinkedinIn, url: "https://linkedin.com/company/prakritimsit/"},
+]
+
+
 const Footer = () => {
   return (
     <footer className="bg-black text-gray-400 py-16">
@@ -7,15 +15,15 @@ const Footer = () => {
 
         {/* Socials */}
         <div className="flex gap-6 mb-6">
-          {[FaFacebookF, FaInstagram, FaLinkedinIn].map((Icon, idx) => (
+          {socials.map((social, idx) => (
             <a
               key={idx}
-              href="#"
+              href={social.url}
               target="_blank"
               rel="noreferrer"
               className="w-10 h-10 flex items-center justify-center border border-gray-700 rounded-full hover:border-[#d4af37] hover:text-[#d4af37] transition-all"
             >
-              <Icon />
+              <social.icon />
             </a>
           ))}
         </div>
