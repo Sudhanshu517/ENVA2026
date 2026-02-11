@@ -67,7 +67,7 @@ const Events = () => {
             // min={event.min}
             // max={event.max}
             // details={event.details}
-            // registrationLink={event.registrationLink}
+            registrationLink={event.registrationLink}
           />
         ))}
       </div>

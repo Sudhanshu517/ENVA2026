@@ -2,7 +2,8 @@ import "./EventCard.css";
 import { useNavigate } from "react-router-dom";
 
 const EventCard = (props) => {
-  const { name, shortdescription, location, id } = props;
+  console.log(props);
+  const { name, description, location, id, registrationLink } = props;
   const navigate = useNavigate();
 
   return (
@@ -24,7 +25,7 @@ const EventCard = (props) => {
             </div>
             <div className="text-4xl font-semibold mb-1">{name}</div>
             <div className="text-md lg:text-[0.85rem] text-center text-gray-500 mb-10 mx-4">
-              {shortdescription}
+              {description}
             </div>
 
             <div className="text-center bg-gradient-to-t from-[#2f2f2f] via-[#1d1d1d] to-[#1d1d1d] py-4 px-12 rounded-lg border-b-3 border-[#d4af37]">
@@ -50,7 +51,9 @@ const EventCard = (props) => {
           >
             INFO
           </button>
-          <button className="bg-[#d4af37] rounded-sm py-2 w-30 text-slate-800 xl:hover:bg-transparent xl:hover:text-[#d4af37] xl:hover:border-3 xl:hover:border-[#d4af37] active:bg-transparent active:text-[#d4af37] active:border-3 active:border-[#d4af37] hover:cursor-pointer">
+          <button
+          onClick={() => window.location.href = registrationLink}
+           className="bg-[#d4af37] rounded-sm py-2 w-30 text-slate-800 xl:hover:bg-transparent xl:hover:text-[#d4af37] xl:hover:border-3 xl:hover:border-[#d4af37] active:bg-transparent active:text-[#d4af37] active:border-3 active:border-[#d4af37] hover:cursor-pointer">
             REGISTER
           </button>
         </div>

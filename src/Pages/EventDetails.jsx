@@ -19,7 +19,7 @@ const EventDetails = () => {
 
       <p className="mt-4 text-gray-400">{event.description}</p>
 
-      <div className="mt-6 text-lg">{event.details}</div>
+      <div className="mt-6 text-lg whitespace-pre-line">{event.details}</div>
 
       <div className="mt-4">
         <span className="text-[#d4af37]">Location:</span> {event.location}
